@@ -1,3 +1,6 @@
+# Notebook:
+- "./RNN_CharClass_Notebook.ipynb"
+
 # Descripción
 - Este notebook muestra una arquitectura RNN que recibe un nombre/apellido como input, y el modelo clasifica el idioma.
 
