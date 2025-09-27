@@ -37,3 +37,5 @@ Le paso al modelo la categoría (idioma) y la letra inicial a partir de los cual
 ![ImagenResultado](https://github.com/DianaMLlamocaZ/SEQUENCE_MODELS_LEARNING/blob/main/GeneratingNames-CharLevel-RNN/img_data/Resultado.JPG)
 
 
+# Nota final:
+Para la generación de nombres distintos, a partir de la categoría y letra inicial, se puede implementar una distribución de probabilidad para samplear datos. De esta forma, me aseguro de que no sea una generación de nombres determinista, sino estocástica.
