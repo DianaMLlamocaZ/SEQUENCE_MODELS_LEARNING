@@ -35,6 +35,6 @@
 
 # Prueba
 Aquí muestro un ejemplo de test, donde le paso al modelo el apellido "Ramirez", y lo clasifica en un idioma:
-![ImagenResultado](https://github.com/DianaMLlamocaZ/SEQUENCE_MODELS_LEARNING/blob/main/ClassifyingNames-CharLevel-RNN/img_resultados/Resultado.JPG)
+![ImagenResultado](https://github.com/DianaMLlamocaZ/SEQUENCE_MODELS_LEARNING/blob/main/ClassifyingNames-CharLevel-RNN/img_resultados/Resultado_prueba.JPG)
 
 Aquí, se ve que el modelo predice "Spanish". Lo cual es correcto.
