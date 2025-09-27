@@ -32,4 +32,6 @@ Por ello, en vez de usar la RNN layer de Pytorch, implementé una red neuronal r
   
 
 # Prueba:
-Le paso al modelo 
+Le paso al modelo la categoría (idioma) y la letra inicial a partir de los cuales va a tener que generar el nombre:
+
+![ImagenResultado]()
