@@ -3,3 +3,7 @@
 - Incluye implementaciones de tareas como clasificación de nombres, predicción de palabras y traducción automática, utilizando modelos como RNNs, LSTMs y otras arquitecturas progresivas a transformers.
 - El enfoque principal es entender **cuándo y por qué aplicar cada tipo de modelo**, con el objetivo de construir una base sólida para futuras aplicaciones en visión por computadora, especialmente en tareas secuenciales.
 - Este repositorio se encuentra en crecimiento y lo actualizaré con nuevos experimentos y aprendizajes.
+
+# Notebooks
+- [ClassifyingNames-CharLevel-RNN](./ClassifyingNames-CharLevel-RNN): Clasificación de nombres con una RNN a nivel de caracter.
+- [GeneratingNames-CharLevel-RNN](./GeneratingNames-CharLevel-RNN): Generación de nombres con una RNN a nivel de caracter.
