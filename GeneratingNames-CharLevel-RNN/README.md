@@ -35,3 +35,5 @@ Por ello, en vez de usar la RNN layer de Pytorch, implementé una red neuronal r
 Le paso al modelo la categoría (idioma) y la letra inicial a partir de los cuales va a tener que generar el nombre:
 
 ![ImagenResultado](https://github.com/DianaMLlamocaZ/SEQUENCE_MODELS_LEARNING/blob/main/GeneratingNames-CharLevel-RNN/img_data/Resultado.JPG)
+
+
