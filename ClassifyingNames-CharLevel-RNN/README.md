@@ -16,8 +16,19 @@
 - Softmax 
   
 # Entrenamiento
-## Hiperparámetros:
+### Hiperparámetros:
 - optimizer: Adam, learning_rate=0.005
 - épocas: 10
 - loss: CrossEntropyLoss
 
+### Loss por época:
+Época 0, Loss: 1.2199156235862563
+Época 1, Loss: 0.9265171012914961
+Época 2, Loss: 0.8386138929322388
+Época 3, Loss: 0.7645445569479238
+Época 4, Loss: 0.7211768871980158
+Época 5, Loss: 0.6841448155828057
+Época 6, Loss: 0.644633860119062
+Época 7, Loss: 0.6286840989935805
+Época 8, Loss: 0.6137491022880329
+Época 9, Loss: 0.5802114986051294
