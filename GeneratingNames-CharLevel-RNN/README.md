@@ -6,7 +6,7 @@
 
 # Procesamiento de datos
 - Dado que el modelo funciona a nivel de caracter, cada palabra se representa por un tensor cuyos elementos son vectores en formato one hot encoding.
-- De la misma forma, la 'etiqueta' de clase (idioma) también se represeenta mediante un vector OHE.
+- De la misma forma, la 'etiqueta' de clase (idioma) también se representa mediante un vector OHE.
 - El 'EOS' (end of sentence token) está representado por la posición final del vocabulario.
 
 # Arquitectura de la red
