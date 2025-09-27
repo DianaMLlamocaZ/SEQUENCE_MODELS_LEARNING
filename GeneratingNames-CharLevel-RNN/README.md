@@ -11,7 +11,7 @@
 
 # Arquitectura de la red
 - 1 hidden layer: i2h (de aquí se obtiene el hidden state)
-- 1 linear layer: i2i (capa lineal que procesa genera el 'output')
+- 1 linear layer: i2i (capa lineal que genera el 'output')
 - 1 final linear layer: o2o (capa cuyo input_size=hidden_size+output_size y su salida es un conjunto de neuronas igual al size del vocabulario con softmax)
 
   **Imagen de la arquitectura de la red:**
