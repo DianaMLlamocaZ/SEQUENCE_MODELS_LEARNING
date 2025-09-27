@@ -23,7 +23,7 @@ Sin embargo, se debe tener en cuenta que, además del vector OHE que representa 
 
 Por ello, en vez de usar la RNN layer de Pytorch, implementé una red neuronal recurrente y el cálculo de cada time step manualmente.
 
-**Nota**: En el time step inicial (t=0) el hidden state es 0, y en cada paso se irá actualizando con el output que genera la red.
+**Nota**: En el time step inicial (t=0) el hidden state es un vector OHE de 0's, y en cada paso se va actualizando con el output que genera la red.
 
 ### Hiperparámetros:
 - Épocas: 100000
