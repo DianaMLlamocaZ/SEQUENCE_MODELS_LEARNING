@@ -13,3 +13,12 @@
   **Imagen de la arquitectura de la red:**
   
   ![Imagen](https://github.com/DianaMLlamocaZ/SEQUENCE_MODELS_LEARNING/blob/main/GeneratingNames-CharLevel-RNN/img_data/arquitectura.png)
+
+# Entrenamiento:
+Cada caracter es generado de manera 'secuencial', uno por uno, en cada time step.
+Así, la velocidad de 'entrenamiento' y 'predicción' está dada por el tamaño de la palabra a generase, pues el output del paso anterior debe pasarse al siguiente para que la red continúe con el entrenamiento. 
+### Hiperparámetros:
+- Épocas: 100000
+- Learning rate: 0.0005
+- Loss: CrossEntropy (muchos caracteres como posibles predicciones)
+  
