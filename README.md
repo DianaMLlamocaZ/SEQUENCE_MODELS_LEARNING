@@ -1,4 +1,4 @@
 - Este repositorio reúne notebooks desarrollados como parte de mi proceso de aprendizaje para comprender y experimentar con modelos secuenciales utilizados en procesamiento de lenguaje natural.
-- Incluye implementaciones de tareas como clasificación de nombres, predicción de palabras y traducción automática, utilizando modelos como RNNs, LSTMs y otras arquitecturas progresiva a transformers.
+- Incluye implementaciones de tareas como clasificación de nombres, predicción de palabras y traducción automática, utilizando modelos como RNNs, LSTMs y otras arquitecturas progresivas a transformers.
 - El enfoque principal es entender **cuándo y por qué aplicar cada tipo de modelo**, con el objetivo de construir una base sólida para futuras aplicaciones en visión por computadora, especialmente en tareas secuenciales.
 - Este repositorio se encuentra en crecimiento y lo actualizaré con nuevos experimentos y aprendizajes.
