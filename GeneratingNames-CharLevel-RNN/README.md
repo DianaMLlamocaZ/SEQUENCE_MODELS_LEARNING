@@ -10,6 +10,6 @@
 - 1 linear layer: i2i (capa lineal que procesa genera el 'output')
 - 1 final linear layer: o2o (capa cuyo input_size=hidden_size+output_size y su salida es un conjunto de neuronas igual al size del vocabulario con softmax)
 
-  Imagen de la arquitectura de la red:
+  **Imagen de la arquitectura de la red:**
   
   ![Imagen](https://github.com/DianaMLlamocaZ/SEQUENCE_MODELS_LEARNING/blob/main/GeneratingNames-CharLevel-RNN/img_data/arquitectura.png)
