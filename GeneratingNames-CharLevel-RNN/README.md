@@ -16,7 +16,11 @@
 
 # Entrenamiento:
 Cada caracter es generado de manera 'secuencial', uno por uno, en cada time step.
-Así, la velocidad de 'entrenamiento' y 'predicción' está dada por el tamaño de la palabra a generase, pues el output del paso anterior debe pasarse al siguiente para que la red continúe con el entrenamiento. 
+Así, la velocidad de 'entrenamiento' y 'predicción' está dada por el tamaño de la palabra a generase, pues el output del paso anterior debe pasarse al siguiente para que la red continúe con el entrenamiento.
+
+Sin embargo, se debe tener en cuenta que, además del vector OHE que representa a cada caracter, se le debe añadir (concatenar) el vector que presenta a la categoría (idioma) y el vector hidden state generado.
+
+
 ### Hiperparámetros:
 - Épocas: 100000
 - Learning rate: 0.0005
