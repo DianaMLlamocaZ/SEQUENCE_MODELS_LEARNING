@@ -1,5 +1,5 @@
 # Notebook:
-[RNN_CharClass_Notebook.ipynb]()
+[RNN_GenNames_CharLevel_Notebook.ipynb](https://github.com/DianaMLlamocaZ/SEQUENCE_MODELS_LEARNING/blob/main/GeneratingNames-CharLevel-RNN/RNN_GenNames_CharLevel_Notebook.ipynb)
 
 # Descripción
 - En este notebook, implemento un modelo recurrente cuyo objetivo es generar nuevas palabras dado un idioma.
