@@ -1,1 +1,1 @@
-Este notebook muestra una arquitectura RNN que, dado un nombre/apellido como input, el modelo clasifica el idioma.
+Este notebook muestra una arquitectura RNN que recibe un nombre/apellido como input, y el modelo clasifica el idioma.
