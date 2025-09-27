@@ -32,3 +32,7 @@
 - Época 7, Loss: 0.6286840989935805
 - Época 8, Loss: 0.6137491022880329
 - Época 9, Loss: 0.5802114986051294
+
+# Prueba
+Aquí muestro un ejemplo de test, donde le paso al modelo el apellido "Ramirez", y lo clasifica en un idioma:
+
