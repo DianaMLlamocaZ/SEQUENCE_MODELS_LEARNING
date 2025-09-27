@@ -21,10 +21,9 @@ Así, la velocidad de 'entrenamiento' y 'predicción' está dada por el tamaño 
 
 Sin embargo, se debe tener en cuenta que, además del vector OHE que representa a cada caracter, se le debe añadir (concatenar) el vector que representa a la categoría (idioma) y el vector hidden state (representa la 'memoria' hasta el time step 't').
 
-**Nota**: En el time step inicial (t=0) el hidden state es 0, y en cada paso se irá actualizando con el output que genera la red.
-
 Por ello, en vez de usar la RNN layer de Pytorch, implementé una red neuronal recurrente y el cálculo de cada time step manualmente.
 
+**Nota**: En el time step inicial (t=0) el hidden state es 0, y en cada paso se irá actualizando con el output que genera la red.
 
 ### Hiperparámetros:
 - Épocas: 100000
