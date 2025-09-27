@@ -2,7 +2,7 @@
 [RNN_GenNames_CharLevel_Notebook.ipynb](https://github.com/DianaMLlamocaZ/SEQUENCE_MODELS_LEARNING/blob/main/GeneratingNames-CharLevel-RNN/RNN_GenNames_CharLevel_Notebook.ipynb)
 
 # Descripción
-- En este notebook, implemento un modelo recurrente cuyo objetivo es generar nuevas palabras dado un idioma.
+- En este notebook, implemento un modelo recurrente cuyo objetivo es generar nuevas palabras dado un idioma y una letra inicial.
 
 # Procesamiento de datos
 - Dado que el modelo funciona a nivel de caracter, cada palabra se representa por un tensor cuyos elementos son vectores en formato one hot encoding.
