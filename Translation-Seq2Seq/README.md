@@ -10,7 +10,7 @@ Para ello, creé 2 redes recurrentes (GRUs):
 
 # Procesamiento de datos
 - Normalización de oraciones: minúscula, considerar algunos signos de puntuación, remover símbolos del francés que no están presentes en el inglés.
-- Creación de clases que representan a los idiomas, con atributos para mapear palabras a índices (útiles para generar embeddings)
+- Creación de objetos que representan a los idiomas, con atributos para mapear palabras a índices (útiles para generar embeddings)
 - Generación de DataLoaders: batch_size=32
 
 # Arquitectura de la red
