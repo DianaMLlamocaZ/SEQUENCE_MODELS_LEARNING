@@ -15,6 +15,7 @@ Para ello, creé 2 redes recurrentes (GRUs):
 
 # Arquitectura de la red
 - **Encoder:**
+  
   ![Encoder](https://github.com/DianaMLlamocaZ/SEQUENCE_MODELS_LEARNING/blob/main/Translation-Seq2Seq/img_data/Encoder.JPG)
 # Entrenamiento
 
