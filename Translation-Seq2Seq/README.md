@@ -14,7 +14,8 @@ Para ello, creé 2 redes recurrentes (GRUs):
 - Generación de DataLoaders: batch_size=32
 
 # Arquitectura de la red
-
+- **Encoder:**
+  
 # Entrenamiento
 
 # Prueba
