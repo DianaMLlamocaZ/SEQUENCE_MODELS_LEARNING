@@ -4,9 +4,8 @@
 # Descripción
 En este notebook, implementé un modelo (con la arquitectura seq2seq) para traducción de francés a inglés.
 Para ello, creé 2 redes recurrentes (GRUs):
-- Encoder: Genera el context vector (hidden state del último time step del encoder) que será el hidden state inicial del decoder.
-- Decoder: Recibe, inicialmente, el token 'sos' (como input) y el context vector (como hidden state inicial).
-  
+- **Encoder:** Genera el context vector (hidden state del último time step del encoder) que será el hidden state inicial del decoder.
+- **Decoder:** Recibe, inicialmente, el token 'sos' (como input) y el context vector (como hidden state inicial).
   Posteriormente, para el entrenamiento, usé Teacher Forcing y, para la inferencia, el decoder utiliza sus propias predicciones para generar el siguiente input.
 
 # Procesamiento de datos
