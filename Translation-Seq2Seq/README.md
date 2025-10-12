@@ -48,3 +48,10 @@ Para ello, creé 2 redes recurrentes (GRUs):
 # Prueba
 A continuación, muestro algunos resultados del modelo realizando predicciones del francés a inglés:
 ![Traducciones](https://github.com/DianaMLlamocaZ/SEQUENCE_MODELS_LEARNING/blob/main/Translation-Seq2Seq/img_data/Resultados_Seq2Seq.JPG)
+
+# Resultados:
+- El modelo predice bien algunas oraciones, pero tiende a fallar en otras. Incluso, cuando se le pasa una sola "palabra", devuelve como traducción una 'oración'.
+
+# Mejoras:
+- El modelo, por el momento, consta de una arquitectura Seq2Seq model: encoder, decoder.
+- No se implementaron attention layers aún, pero le añadiré posteriormente para comparar las mejoras en los resultados.
