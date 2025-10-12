@@ -46,3 +46,5 @@ Para ello, creé 2 redes recurrentes (GRUs):
 - **Nota:** En el loss se ignoró el índice que representa al PAD token. 
 
 # Prueba
+A continuación, muestro algunos resultados del modelo realizando predicciones del francés a inglés:
+![Traducciones](https://github.com/DianaMLlamocaZ/SEQUENCE_MODELS_LEARNING/blob/main/Translation-Seq2Seq/img_data/Resultados_Seq2Seq.JPG)
