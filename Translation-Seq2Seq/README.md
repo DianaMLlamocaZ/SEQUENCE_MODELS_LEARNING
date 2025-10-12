@@ -32,5 +32,16 @@ Para ello, creé 2 redes recurrentes (GRUs):
   ![Decoder](https://github.com/DianaMLlamocaZ/SEQUENCE_MODELS_LEARNING/blob/main/Translation-Seq2Seq/img_data/Decoder.JPG)
 
 # Entrenamiento
+- El encoder genera el 'context vector' luego de procesar la secuencia a traducirse.
+- En el time step inicial del decoder, este recibe el 'context vector' y el token 'sos' para indicar el inicio de la predicción (traducción).
+- Durante cada predicción del decoder, se usa el token predicho por el modelo mismo como el siguiente input.
+- Hiperparámetros:
+    - hidden_size: 128
+    - batch_size: 32
+    - optimizers Adam para el encoder y decoder:
+      - optimizer encoder --> learning_rate: 0.001
+      - optimizer decoder --> learning_rate: 0.001
+     
+- **Nota:** En el loss se debe ignorar el índice que representa al PAD token. 
 
 # Prueba
