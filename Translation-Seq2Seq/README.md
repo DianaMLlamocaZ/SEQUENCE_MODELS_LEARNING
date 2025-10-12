@@ -43,6 +43,6 @@ Para ello, creé 2 redes recurrentes (GRUs):
       - optimizer encoder --> learning_rate: 0.001
       - optimizer decoder --> learning_rate: 0.001
      
-- **Nota:** En el loss se debe ignorar el índice que representa al PAD token. 
+- **Nota:** En el loss se ignoró el índice que representa al PAD token. 
 
 # Prueba
