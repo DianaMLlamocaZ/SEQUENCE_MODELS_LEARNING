@@ -15,13 +15,22 @@ Para ello, creé 2 redes recurrentes (GRUs):
 
 # Arquitectura de la red
 - **Encoder:**
-  - Embedding layer
-  - GRU layer
-  - Dropout
+  - Embedding layer: mapea los input tokens de las oraciones a vectors embedding
+  - GRU layer: capa de GRU para retener la información
+  - Dropout: capa para prevenir el overfitting
     
   - **Nota:** Hidden size --> 128
     
   ![Encoder](https://github.com/DianaMLlamocaZ/SEQUENCE_MODELS_LEARNING/blob/main/Translation-Seq2Seq/img_data/Encoder.JPG)
+
+- **Decoder:**
+  - Embedding layer: mapea los inputs predichos por el decoder a vectores embedding.
+  - GRU layer: Capa para retener la información.
+  - Linear layer: Mapeo de dimensiones del hidden size al tamaño del vocabulario (cantidad de palabras presentes).
+  - Adicionalmente, para la etapa de 'inferencia', los outputs del decoder deben pasar por una softmax function para convertir los logits predichos a probabilidades.
+    
+  ![Decoder](https://github.com/DianaMLlamocaZ/SEQUENCE_MODELS_LEARNING/blob/main/Translation-Seq2Seq/img_data/Decoder.JPG)
+
 # Entrenamiento
 
 # Prueba
