@@ -41,3 +41,19 @@ En este repositorio, creé un modelo de arquitectura *sequence to sequence* para
 <div align="center">
   <img src="./IMG/Attention_Decoder_Network.png">
 </div>
+
+# Entrenamiento
+- Durante el entrenamiento, se utilizó la técnica *Teacher Forcing*. Es decir, se utilizó el *target* como entrada para el siguiente *step* en lugar de la propia predicción del modelo con el objetivo de hacer más eficiente el entrenamiento.
+- Hiperparámetros:
+  - hidden_size: 128
+  - batch_size: 32
+  - adam optimizers:
+    - learning rate (encoder y decoder): 0.001
+  - n epochs: 80
+ - **Nota:** En el loss se ignoró el PAD token.
+
+# Prueba
+A continuación, muestro los resultados obtenidos de las traducciones por parte del modelo luego de entrenarlo:
+<div>
+  <img src="./IMG/Predictions - Model.JPG">
+</div>
