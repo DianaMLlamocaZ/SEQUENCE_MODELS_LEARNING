@@ -7,5 +7,5 @@
 # Notebooks
 - [ClassifyingNames-CharLevel-RNN](./ClassifyingNames-CharLevel-RNN): Clasificación de nombres con una RNN a nivel de caracter.
 - [GeneratingNames-CharLevel-RNN](./GeneratingNames-CharLevel-RNN): Generación de nombres con una RNN a nivel de caracter.
-- [Translation-Seq2Seq](./Translation-Seq2Seq): Traducción de francés a inglés usando un Seq2Seq model.
+- [Translation-Seq2Seq](./Translation-Seq2Seq): Traducción de francés a inglés usando un Seq2Seq model sin attention mechanism.
 - [TranslationWAttention-Seq2Seq](./TranslationWAttention-Seq2Seq): Modelo de traducción de francés a inglés (Seq2Seq) con Bahdanau Attention.
