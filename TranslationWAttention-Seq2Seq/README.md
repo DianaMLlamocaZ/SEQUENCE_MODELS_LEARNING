@@ -27,9 +27,9 @@ En este repositorio, creé un modelo de arquitectura *sequence to sequence* para
   - **Embedding Layer:** Cumple la misma función que la Embedding Layer del encoder --> Mapear la secuencia de tokens a una secuencia de embeddings.
   - **Attention mechanism:**
     - Recibe como parámetros los *hidden states* generados por el encoder, y el *hidden state* del time step previo del decoder para calcular los *attention weight scores*.
-    - De esta manera, se tienen 2 matrices 'Wa' y 'Ua' que son aprendidos durante el entrenamiento, y 1 matriz adicional 'Va'.
+    - De esta manera, se tienen 2 matrices 'Wa' y 'Ua' que son aprendidas durante el entrenamiento, y 1 matriz adicional 'Va'.
     - Se realiza la suma de los resultados obtenidos por las matrices y se suman para aplicar la *tanh function*:
-        tanh(Wa*s_i-1+Ua*h_j); h_j: *hidden time* step que deriva del encoder, s_i-1: *hidden time step* del *time step* previo del decoder. 
+       -  tanh(Wa*s_i-1+Ua*h_j); h_j: *hidden time* step que deriva del encoder, s_i-1: *hidden time step* del *time step* previo del decoder. 
     - Posteriormente, se multiplica el resultado anterior con la matriz 'Va' y aplica la *softmax function* para normalizar los *scores* a un rango de [0,1], formando así una distribución de probabilidad, que representan, finalmente, los *weight scores*.
  
 <div align="center">
