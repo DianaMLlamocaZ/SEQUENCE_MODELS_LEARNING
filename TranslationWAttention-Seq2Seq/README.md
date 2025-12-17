@@ -25,7 +25,9 @@ En este repositorio, creé un modelo de arquitectura *sequence to sequence* para
 
 - **Decoder:**
   - **Embedding Layer:** Cumple la misma función que la Embedding Layer del encoder --> Mapear la secuencia de tokens a una secuencia de embeddings.
-  - **Attention mechanism:** Recibe como parámetros los *hidden states* generados por el encoder, y el *hidden state* del time step previo del decoder para calcular los *attention weight scores*. De esta manera, se tienen 2 matrices 'Wa' y 'Ua' que son aprendidos durante el entrenamiento. Posteriormente, se aplica la *softmax function* para normalizar los *scores* a un rango de [0,1], formando así una distribución de probabilidad, representando finalmente los *weight scores*.
+  - **Attention mechanism:**
+    - Recibe como parámetros los *hidden states* generados por el encoder, y el *hidden state* del time step previo del decoder para calcular los *attention weight scores*.
+    - De esta manera, se tienen 2 matrices 'Wa' y 'Ua' que son aprendidos durante el entrenamiento. Posteriormente, se aplica la *softmax function* para normalizar los *scores* a un rango de [0,1], formando así una distribución de probabilidad, representando finalmente los *weight scores*.
  
 <div align="center">
   <img src="./IMG/Attention_Decoder_Network.png">
