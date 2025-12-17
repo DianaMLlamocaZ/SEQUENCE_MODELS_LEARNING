@@ -18,7 +18,7 @@ En este repositorio, creé un modelo de arquitectura *sequence to sequence* para
   - **Embedding Layer:** Mapea el token a un vector de 'n' dimensiones, n: hiperparámetro de la dimensión del embedding.
   - **GRU Layer:** Recibe las secuencias de embeddings y genera un *hidden state* para cada *time step*.
   - **Dropout:** Adicionalmente, agregué una capa de dropout para evitar el overfitting temprano en la red.
-    
+  - **Imagen de la arquitectura del Encoder:**
 <div align="center">
   <img src="./IMG/Encoder_Network.png">
 </div>
@@ -37,7 +37,7 @@ En este repositorio, creé un modelo de arquitectura *sequence to sequence* para
       </div>
   - **GRU Layer:** Como input, recibe el tensor concatenado del *embedding* y el *context vector* (que se obtuvo a partir de los *weight scores*).
   - **Linear Layer:** Capa lineal que mapea el output dimension de la GRU Layer a 'c' dimensiones, donde 'c' es el número de palabras del idioma *target*.
- 
+  - **Imagen de la arquitectura del Decoder:**
 <div align="center">
   <img src="./IMG/Attention_Decoder_Network.png">
 </div>
