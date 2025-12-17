@@ -33,7 +33,7 @@ En este repositorio, creé un modelo de arquitectura *sequence to sequence* para
     - Posteriormente, se multiplica el resultado anterior con la matriz 'Va' y aplica la *softmax function* para normalizar los *scores* a un rango de [0,1], formando así una distribución de probabilidad, que representan, finalmente, los *weight scores*.
      - A continuación, muestro (en código) cómo realicé la implementación del Bahdanau Attention Mechanism: 
       <div align="center">
-        <img source="./IMG/FormMath-Code.png">
+        <img src="./IMG/FormMath-Code.png">
       </div>
  
 <div align="center">
