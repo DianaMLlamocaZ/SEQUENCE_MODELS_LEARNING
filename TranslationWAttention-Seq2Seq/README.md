@@ -14,7 +14,7 @@ En este repositorio, creé un modelo de arquitectura *sequence to sequence* para
 - **Normalización:** Al normalizar las oraciones, tomé en cuenta algunos signos de puntuación. De esta manera, me aseguro de que a cada signo de puntuación se le asigne un token. Token que será representado por un vector de 'n' dimensiones a través de la Embedding Layer.
 
 # Arquitectura
-- Encoder:
+- **Encoder:**
   - **Embedding Layer:** Mapea el token a un vector de 'n' dimensiones, n: hiperparámetro de la dimensión del embedding.
   - **GRU Layer:** Recibe las secuencias de embeddings y genera un *hidden state* para cada *time step*.
   - **Dropout:** Adicionalmente, agregué una capa de dropout para evitar el overfitting temprano en la red.
@@ -22,3 +22,6 @@ En este repositorio, creé un modelo de arquitectura *sequence to sequence* para
 <div align="center">
   <img src="./IMG/Encoder_Network.png">
 </div>
+
+- **Decoder:**
+  - 
