@@ -58,3 +58,6 @@ A continuación, muestro los resultados obtenidos de las traducciones por parte 
 <div>
   <img src="./IMG/Predictions - Model.JPG">
 </div>
+
+# Mejoras
+- Entrenar al modelo con una mayor cantidad de oraciones para lograr mejores traducciones. :D
