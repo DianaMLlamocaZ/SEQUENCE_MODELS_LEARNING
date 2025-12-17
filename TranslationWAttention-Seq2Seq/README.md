@@ -13,4 +13,8 @@ En este repositorio, creé un modelo de arquitectura *sequence to sequence* para
 - **Data:** Las oraciones, con las que se entrenó al modelo, tienen, como máximo, un *length* de 10. Esto se realizó con el objetivo de crear un diccionario que contenga las palabras del vocabulario para el mapeo a su token correspondiente.
 - **Normalización:** Al normalizar las oraciones, tomé en cuenta algunos signos de puntuación. De esta manera, me aseguro de que a cada signo de puntuación se le asigne un token. Token que será representado por un vector de 'n' dimensiones a través de la Embedding Layer.
 
-# 
+# Arquitectura
+## Encoder:
+<div align="center">
+  <img src="./IMG/Encoder_Network.png">
+</div>
