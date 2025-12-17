@@ -31,6 +31,10 @@ En este repositorio, creé un modelo de arquitectura *sequence to sequence* para
     - Se realiza la suma de los resultados obtenidos por las matrices y se suman para aplicar la *tanh function*:
        -  tanh(Wa * s_i-1 + Ua * h_j); h_j: *hidden time* step que deriva del encoder, s_i-1: *hidden state* del *time step* previo del decoder. 
     - Posteriormente, se multiplica el resultado anterior con la matriz 'Va' y aplica la *softmax function* para normalizar los *scores* a un rango de [0,1], formando así una distribución de probabilidad, que representan, finalmente, los *weight scores*.
+     - A continuación, muestro (en código) cómo realicé la implementación del Bahdanau Attention Mechanism: 
+      <div align="center">
+        <img source="./IMG/FormMath-Code.png">
+      </div>
  
 <div align="center">
   <img src="./IMG/Attention_Decoder_Network.png">
