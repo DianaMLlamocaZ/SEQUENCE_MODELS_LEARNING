@@ -16,7 +16,7 @@ En este repositorio, creé un modelo de arquitectura *sequence to sequence* para
 # Arquitectura
 - Encoder:
   - **Embedding Layer:** Mapea el token a un vector de 'n' dimensiones, n: hiperparámetro de la dimensión del embedding.
-  - **GRU Layer:** GRU layer que recibe las secuencias de embeddings y genera los *hidden states* para cada *time step*.
+  - **GRU Layer:** Recibe las secuencias de embeddings y genera un *hidden state* para cada *time step*.
   - **Dropout:** Adicionalmente, agregué una capa de dropout para evitar el overfitting temprano en la red.
     
 <div align="center">
