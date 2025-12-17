@@ -35,6 +35,8 @@ En este repositorio, creé un modelo de arquitectura *sequence to sequence* para
       <div align="center">
         <img src="./IMG/FormMath-Code.png">
       </div>
+  - **GRU Layer:** Como input, recibe el tensor concatenado del *embedding* y el *context vector* (que se obtuvo a partir de los *weight scores*).
+  - **Linear Layer:** Capa lineal que mapea el output dimension de la GRU Layer a 'c' dimensiones, donde 'c' es el número de palabras del idioma *target*.
  
 <div align="center">
   <img src="./IMG/Attention_Decoder_Network.png">
